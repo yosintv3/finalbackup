@@ -1,6 +1,16 @@
 <title> YoSinTV Player</title>
-
 <meta content='width=device-width,minimum-scale=1,initial-scale=1' name='viewport'/>
+
+    <!-- <script src="https://yosintv.github.io/yosintv/jwplayer.js"></script>  -->
+ <script src="https://yosintv.github.io/yosintv/football/jwplayerr.js"></script>
+    <body onload="init()">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <script>$(document).ready(function() {
+      $("img").on("contextmenu",function(){
+         return false;
+      }); 
+  }); </script>
+            
 
 <style>
         #container {
@@ -76,6 +86,9 @@ div#tabs {} .servers-name { display: flex; clear: both; position: relative; over
 </style>
 
 
+
+
+
 <div class='servers-name' id='tabs'>
 
 <button class="button" onclick="window.open('https://tinyurl.com/yosintvads', '_blank')">Link 1</button>
@@ -92,8 +105,6 @@ div#tabs {} .servers-name { display: flex; clear: both; position: relative; over
 </iframe>
 </div>
 </div>
-
-<div id="jwPlayer"></div>
 
 
 <script>
